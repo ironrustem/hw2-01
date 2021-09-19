@@ -32,5 +32,9 @@ class ViewController: UIViewController {
         view.addSubview(branche1Label)
         view.addSubview(branche1Button)
     }
+    
+    private func configureView() {
+        view.backgroundColor = .blue
+        navigationController?.title = "Branche2"
+    }
 }
-
