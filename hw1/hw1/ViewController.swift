@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     private func configureView() {
         view.backgroundColor = .blue
+        navigationController?.title = "Branche2"
     }
 }
 
